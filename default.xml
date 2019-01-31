@@ -732,7 +732,10 @@
   <!-- Add some LineageOS repos -->
   <include name="snippets/lineage.xml" />
 
-  <!-- Add all PixelExperience repos -->
+  <!-- Add some PixelExperience repos -->
   <include name="snippets/pixel.xml" />
+
+  <!-- Add all SimplixOne repos -->
+  <include name="snippets/simplix.xml" />
 
 </manifest>

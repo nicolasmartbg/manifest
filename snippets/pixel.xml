@@ -30,14 +30,14 @@
 
   <!-- Framework repos -->
   <project path="frameworks/av" name="frameworks_av" remote="pixel" />
-  <project path="frameworks/base" name="frameworks_base" remote="pixel" />
+  <!-- <project path="frameworks/base" name="frameworks_base" remote="pixel" /> -->
   <project path="frameworks/native" name="frameworks_native" remote="pixel" />
   <project path="frameworks/opt/net/wifi" name="frameworks_opt_net_wifi" remote="pixel" />
   <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pixel" />
 
   <!-- General repos -->
   <project path="bionic" name="bionic" remote="pixel" />
-  <project path="build/make" name="build" remote="pixel">
+  <!-- <project path="build/make" name="build" remote="pixel">
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -49,13 +49,24 @@
   <project path="build/soong" name="build_soong" remote="pixel">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
+  </project>-->
   <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
   <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
+  <!--<project path="manifest" name="manifest" remote="pixel" />-->
+  <project path="build/kati" name="build_kati" remote="pixel" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="pixel" />
+  <project path="device/custom/sepolicy" name="device_custom_sepolicy" remote="pixel" />
+  
+  <!-- New things
   <project path="manifest" name="manifest" remote="pixel" />
   <project path="vendor/aosp" name="vendor_aosp" remote="pixel" />
   <project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />
-  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel-gitlab" />
+  <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel-gitlab" /> -->
+  
+  <!-- <project path="vendor/aosp" name="vendor_aosp" remote="pixel" /> -->
+  <!--<project path="vendor/gapps" name="vendor_gapps" remote="pixel-gitlab" clone-depth="1" />-->
+  <!-- <project path="vendor/pixelstyle" name="vendor_pixelstyle" remote="pixel" />
+  <project path="vendor/themes" name="vendor_themes" remote="pixel" /> -->
 
   <!-- Hardware repos -->
   <project path="hardware/custom/interfaces" name="hardware_custom_interfaces" remote="pixel" />
