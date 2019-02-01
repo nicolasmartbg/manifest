@@ -25,7 +25,7 @@ $ repo sync --no-tags --no-clone-bundle --force-sync -c
 On multithread CPUs (which you probably have, considering you would like to build Android :P) you can set multiple sync jobs by doing:
 ```bash
 
-    repo sync --no-tags --no-clone-bundle --force-sync -c -jX
+$ repo sync --no-tags --no-clone-bundle --force-sync -c -jX
 ```
 
 where X is the count of your CPU threads.
