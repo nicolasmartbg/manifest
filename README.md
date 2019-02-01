@@ -18,8 +18,8 @@ Downloading the source
 You can download the source by simply doing:
 ```bash
 
-    repo init -u https://github.com/simplixone/manifest -b o9x
-    repo sync --no-tags --no-clone-bundle --force-sync -c
+$ repo init -u https://github.com/simplixone/manifest -b o9x
+$ repo sync --no-tags --no-clone-bundle --force-sync -c
 ```
     
 On multithread CPUs (which you probably have, considering you would like to build Android :P) you can set multiple sync jobs by doing:
