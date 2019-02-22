@@ -6,7 +6,7 @@
           revision="o9x" />
 
   <remote name="simplix"
-          fetch="https://github.com/Simplix"
+          fetch="https://github.com/SimplixDot"
           revision="pie" />
 
   <remote name="simplixone-devices"
