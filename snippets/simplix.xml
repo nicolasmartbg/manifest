@@ -26,6 +26,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
+  <project path="manifest" name="manifest" remote="simplixone" />
   <project path="build/soong" name="build_soong" remote="simplixone">
     <linkfile src="root.bp" dest="Android.bp" />
     <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
